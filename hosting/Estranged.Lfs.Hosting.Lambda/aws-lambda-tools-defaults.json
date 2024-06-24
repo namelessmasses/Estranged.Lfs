@@ -1,14 +1,14 @@
 {
-  "profile": "ae-lambda-publish",
-  "region": "eu-west-1",
+  "profile": "<you AWS CLI profile>",
+  "region": "<your aws region>",
   "configuration": "Release",
-  "framework": "net6.0",
+  "framework": "net8",
   "s3-prefix": "Estranged.Lfs.Hosting.Lambda/",
-  "s3-bucket": "ae-temp",
-  "function-name": "EstrangedLambdaLfs",
+  "s3-bucket": "<you AWS S3 bucket>",
+  "function-name": "<name of the stack to create>",
   "function-handler": "Estranged.Lfs.Hosting.Lambda::Estranged.Lfs.Hosting.Lambda.LambdaEntryPoint::FunctionHandlerAsync",
   "function-memory-size": 256,
   "function-timeout": 30,
-  "function-runtime": "dotnet6",
+  "function-runtime": "dotnet8",
   "environment-variables": ""
 }
