@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Version>4.0.0</Version>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8</TargetFramework>
     <Authors>alanedwardes</Authors>
     <Description>A GitHub authentication adapter for Estranged.Lfs.Api.</Description>
     <PackageId>Estranged.Lfs.Authenticator.GitHub</PackageId>
